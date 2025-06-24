@@ -1,0 +1,70 @@
+/* সাধারণ রিসেট */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #cc0000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.news h2 {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #cc0000;
+    padding-bottom: 10px;
+}
+
+article {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 4px solid #cc0000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+article h3 {
+    color: #cc0000;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
